@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613087DD144FBD4900BF6278 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087DC144FBD4900BF6278 /* UIKit.framework */; };
+		613087DF144FBD4900BF6278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087DE144FBD4900BF6278 /* Foundation.framework */; };
+		613087E1144FBD4900BF6278 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087E0144FBD4900BF6278 /* CoreGraphics.framework */; };
+		613087E7144FBD4900BF6278 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 613087E5144FBD4900BF6278 /* InfoPlist.strings */; };
+		613087E9144FBD4900BF6278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087E8144FBD4900BF6278 /* main.m */; };
+		613087ED144FBD4900BF6278 /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087EC144FBD4900BF6278 /* EBAppDelegate.m */; };
+		613087F0144FBD4900BF6278 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613087EE144FBD4900BF6278 /* MainStoryboard.storyboard */; };
+		613087F3144FBD4900BF6278 /* EBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087F2144FBD4900BF6278 /* EBViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		613087D8144FBD4900BF6278 /* iPlaystr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlaystr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		613087DC144FBD4900BF6278 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		613087DE144FBD4900BF6278 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		613087E0144FBD4900BF6278 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		613087E4144FBD4900BF6278 /* iPlaystr-Info.plist */ = {isa = PBXFileReference; path = "iPlaystr-Info.plist"; sourceTree = "<group>"; };
+		613087E6144FBD4900BF6278 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		613087E8144FBD4900BF6278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		613087EA144FBD4900BF6278 /* iPlaystr-Prefix.pch */ = {isa = PBXFileReference; path = "iPlaystr-Prefix.pch"; sourceTree = "<group>"; };
+		613087EB144FBD4900BF6278 /* EBAppDelegate.h */ = {isa = PBXFileReference; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		613087EC144FBD4900BF6278 /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
+		613087EF144FBD4900BF6278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		613087F1144FBD4900BF6278 /* EBViewController.h */ = {isa = PBXFileReference; path = EBViewController.h; sourceTree = "<group>"; };
+		613087F2144FBD4900BF6278 /* EBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		613087D5144FBD4900BF6278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613087DD144FBD4900BF6278 /* UIKit.framework in Frameworks */,
+				613087DF144FBD4900BF6278 /* Foundation.framework in Frameworks */,
+				613087E1144FBD4900BF6278 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613087CD144FBD4900BF6278 = {
+			isa = PBXGroup;
+			children = (
+				613087E2144FBD4900BF6278 /* iPlaystr */,
+				613087DB144FBD4900BF6278 /* Frameworks */,
+				613087D9144FBD4900BF6278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		613087D9144FBD4900BF6278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613087D8144FBD4900BF6278 /* iPlaystr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		613087DB144FBD4900BF6278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613087DC144FBD4900BF6278 /* UIKit.framework */,
+				613087DE144FBD4900BF6278 /* Foundation.framework */,
+				613087E0144FBD4900BF6278 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		613087E2144FBD4900BF6278 /* iPlaystr */ = {
+			isa = PBXGroup;
+			children = (
+				613087EB144FBD4900BF6278 /* EBAppDelegate.h */,
+				613087EC144FBD4900BF6278 /* EBAppDelegate.m */,
+				613087EE144FBD4900BF6278 /* MainStoryboard.storyboard */,
+				613087F1144FBD4900BF6278 /* EBViewController.h */,
+				613087F2144FBD4900BF6278 /* EBViewController.m */,
+				613087E3144FBD4900BF6278 /* Supporting Files */,
+			);
+			path = iPlaystr;
+			sourceTree = "<group>";
+		};
+		613087E3144FBD4900BF6278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613087E4144FBD4900BF6278 /* iPlaystr-Info.plist */,
+				613087E5144FBD4900BF6278 /* InfoPlist.strings */,
+				613087E8144FBD4900BF6278 /* main.m */,
+				613087EA144FBD4900BF6278 /* iPlaystr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		613087D7144FBD4900BF6278 /* iPlaystr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613087F6144FBD4900BF6278 /* Build configuration list for PBXNativeTarget "iPlaystr" */;
+			buildPhases = (
+				613087D4144FBD4900BF6278 /* Sources */,
+				613087D5144FBD4900BF6278 /* Frameworks */,
+				613087D6144FBD4900BF6278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPlaystr;
+			productName = iPlaystr;
+			productReference = 613087D8144FBD4900BF6278 /* iPlaystr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613087CF144FBD4900BF6278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 613087D2144FBD4900BF6278 /* Build configuration list for PBXProject "iPlaystr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 613087CD144FBD4900BF6278;
+			productRefGroup = 613087D9144FBD4900BF6278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613087D7144FBD4900BF6278 /* iPlaystr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		613087D6144FBD4900BF6278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613087E7144FBD4900BF6278 /* InfoPlist.strings in Resources */,
+				613087F0144FBD4900BF6278 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613087D4144FBD4900BF6278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613087E9144FBD4900BF6278 /* main.m in Sources */,
+				613087ED144FBD4900BF6278 /* EBAppDelegate.m in Sources */,
+				613087F3144FBD4900BF6278 /* EBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		613087E5144FBD4900BF6278 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613087E6144FBD4900BF6278 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		613087EE144FBD4900BF6278 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613087EF144FBD4900BF6278 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		613087F4144FBD4900BF6278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		613087F5144FBD4900BF6278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		613087F7144FBD4900BF6278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPlaystr/iPlaystr-Prefix.pch";
+				INFOPLIST_FILE = "iPlaystr/iPlaystr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		613087F8144FBD4900BF6278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPlaystr/iPlaystr-Prefix.pch";
+				INFOPLIST_FILE = "iPlaystr/iPlaystr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		613087D2144FBD4900BF6278 /* Build configuration list for PBXProject "iPlaystr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613087F4144FBD4900BF6278 /* Debug */,
+				613087F5144FBD4900BF6278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613087F6144FBD4900BF6278 /* Build configuration list for PBXNativeTarget "iPlaystr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613087F7144FBD4900BF6278 /* Debug */,
+				613087F8144FBD4900BF6278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613087CF144FBD4900BF6278 /* Project object */;
+}
