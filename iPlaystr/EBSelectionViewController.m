@@ -6,9 +6,19 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "EBViewController.h"
+#import "EBSelectionViewController.h"
 
-@implementation EBViewController
+@implementation EBSelectionViewController
+@synthesize searchButton, artistName, songName, numberOfResults;
+@synthesize fmManager, rdioManager;
+
+-(IBAction)searchButtonWasPressed:(id)sender
+{
+    if (![artistName.text isEqualToString:@""]) 
+    {
+        [fmManager getMBIDforArtist:artistName.text];
+    }
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -21,6 +31,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    fmManager = [[EBLastFMManager alloc] init];
+    rdioManager = [[EBRdioManager alloc] init];
+    artistName.delegate = self;
+    songName.delegate = self;
+    numberOfResults.delegate = self;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -57,4 +72,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(BOOL) textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
 @end

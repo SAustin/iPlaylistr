@@ -14,7 +14,15 @@
 		613087E9144FBD4900BF6278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087E8144FBD4900BF6278 /* main.m */; };
 		613087ED144FBD4900BF6278 /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087EC144FBD4900BF6278 /* EBAppDelegate.m */; };
 		613087F0144FBD4900BF6278 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613087EE144FBD4900BF6278 /* MainStoryboard.storyboard */; };
-		613087F3144FBD4900BF6278 /* EBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087F2144FBD4900BF6278 /* EBViewController.m */; };
+		613087F3144FBD4900BF6278 /* EBSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613087F2144FBD4900BF6278 /* EBSelectionViewController.m */; };
+		613087FD144FBEBD00BF6278 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087F9144FBEBD00BF6278 /* AudioToolbox.framework */; };
+		613087FE144FBEBD00BF6278 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087FA144FBEBD00BF6278 /* CFNetwork.framework */; };
+		613087FF144FBEBD00BF6278 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087FB144FBEBD00BF6278 /* Security.framework */; };
+		61308800144FBEBD00BF6278 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613087FC144FBEBD00BF6278 /* SystemConfiguration.framework */; };
+		61308809144FC49400BF6278 /* EBLastFMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61308808144FC49400BF6278 /* EBLastFMManager.m */; };
+		6130880C144FC74200BF6278 /* EBRdioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6130880B144FC74200BF6278 /* EBRdioManager.m */; };
+		6130880E144FC82F00BF6278 /* Rdio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6130880D144FC82F00BF6278 /* Rdio.framework */; };
+		61308811144FCAD000BF6278 /* EBRESTWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61308810144FCAD000BF6278 /* EBRESTWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +30,29 @@
 		613087DC144FBD4900BF6278 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		613087DE144FBD4900BF6278 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		613087E0144FBD4900BF6278 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		613087E4144FBD4900BF6278 /* iPlaystr-Info.plist */ = {isa = PBXFileReference; path = "iPlaystr-Info.plist"; sourceTree = "<group>"; };
+		613087E4144FBD4900BF6278 /* iPlaystr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPlaystr-Info.plist"; sourceTree = "<group>"; };
 		613087E6144FBD4900BF6278 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		613087E8144FBD4900BF6278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		613087EA144FBD4900BF6278 /* iPlaystr-Prefix.pch */ = {isa = PBXFileReference; path = "iPlaystr-Prefix.pch"; sourceTree = "<group>"; };
-		613087EB144FBD4900BF6278 /* EBAppDelegate.h */ = {isa = PBXFileReference; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		613087EA144FBD4900BF6278 /* iPlaystr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPlaystr-Prefix.pch"; sourceTree = "<group>"; };
+		613087EB144FBD4900BF6278 /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
 		613087EC144FBD4900BF6278 /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
 		613087EF144FBD4900BF6278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		613087F1144FBD4900BF6278 /* EBViewController.h */ = {isa = PBXFileReference; path = EBViewController.h; sourceTree = "<group>"; };
-		613087F2144FBD4900BF6278 /* EBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBViewController.m; sourceTree = "<group>"; };
+		613087F1144FBD4900BF6278 /* EBSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBSelectionViewController.h; sourceTree = "<group>"; };
+		613087F2144FBD4900BF6278 /* EBSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBSelectionViewController.m; sourceTree = "<group>"; };
+		613087F9144FBEBD00BF6278 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		613087FA144FBEBD00BF6278 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		613087FB144FBEBD00BF6278 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		613087FC144FBEBD00BF6278 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		61308801144FBECD00BF6278 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../../Projects Library/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		61308807144FC49400BF6278 /* EBLastFMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBLastFMManager.h; sourceTree = "<group>"; };
+		61308808144FC49400BF6278 /* EBLastFMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBLastFMManager.m; sourceTree = "<group>"; };
+		6130880A144FC74200BF6278 /* EBRdioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBRdioManager.h; sourceTree = "<group>"; };
+		6130880B144FC74200BF6278 /* EBRdioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBRdioManager.m; sourceTree = "<group>"; };
+		6130880D144FC82F00BF6278 /* Rdio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rdio.framework; path = "../../Projects Library/rdio-ios/Rdio.framework"; sourceTree = "<group>"; };
+		6130880F144FCAD000BF6278 /* EBRESTWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBRESTWrapper.h; sourceTree = "<group>"; };
+		61308810144FCAD000BF6278 /* EBRESTWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBRESTWrapper.m; sourceTree = "<group>"; };
+		61308812144FCBC900BF6278 /* EBRESTWrapperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBRESTWrapperDelegate.h; sourceTree = "<group>"; };
+		613088261451FB8D00BF6278 /* iPlaystr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iPlaystr.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6130880E144FC82F00BF6278 /* Rdio.framework in Frameworks */,
+				613087FD144FBEBD00BF6278 /* AudioToolbox.framework in Frameworks */,
+				613087FE144FBEBD00BF6278 /* CFNetwork.framework in Frameworks */,
+				613087FF144FBEBD00BF6278 /* Security.framework in Frameworks */,
+				61308800144FBEBD00BF6278 /* SystemConfiguration.framework in Frameworks */,
 				613087DD144FBD4900BF6278 /* UIKit.framework in Frameworks */,
 				613087DF144FBD4900BF6278 /* Foundation.framework in Frameworks */,
 				613087E1144FBD4900BF6278 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +77,7 @@
 		613087CD144FBD4900BF6278 = {
 			isa = PBXGroup;
 			children = (
+				6130880D144FC82F00BF6278 /* Rdio.framework */,
 				613087E2144FBD4900BF6278 /* iPlaystr */,
 				613087DB144FBD4900BF6278 /* Frameworks */,
 				613087D9144FBD4900BF6278 /* Products */,
@@ -67,6 +95,11 @@
 		613087DB144FBD4900BF6278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61308801144FBECD00BF6278 /* GHUnitIOS.framework */,
+				613087F9144FBEBD00BF6278 /* AudioToolbox.framework */,
+				613087FA144FBEBD00BF6278 /* CFNetwork.framework */,
+				613087FB144FBEBD00BF6278 /* Security.framework */,
+				613087FC144FBEBD00BF6278 /* SystemConfiguration.framework */,
 				613087DC144FBD4900BF6278 /* UIKit.framework */,
 				613087DE144FBD4900BF6278 /* Foundation.framework */,
 				613087E0144FBD4900BF6278 /* CoreGraphics.framework */,
@@ -77,11 +110,19 @@
 		613087E2144FBD4900BF6278 /* iPlaystr */ = {
 			isa = PBXGroup;
 			children = (
+				613088261451FB8D00BF6278 /* iPlaystr.entitlements */,
 				613087EB144FBD4900BF6278 /* EBAppDelegate.h */,
 				613087EC144FBD4900BF6278 /* EBAppDelegate.m */,
 				613087EE144FBD4900BF6278 /* MainStoryboard.storyboard */,
-				613087F1144FBD4900BF6278 /* EBViewController.h */,
-				613087F2144FBD4900BF6278 /* EBViewController.m */,
+				613087F1144FBD4900BF6278 /* EBSelectionViewController.h */,
+				613087F2144FBD4900BF6278 /* EBSelectionViewController.m */,
+				61308807144FC49400BF6278 /* EBLastFMManager.h */,
+				61308808144FC49400BF6278 /* EBLastFMManager.m */,
+				6130880A144FC74200BF6278 /* EBRdioManager.h */,
+				6130880B144FC74200BF6278 /* EBRdioManager.m */,
+				6130880F144FCAD000BF6278 /* EBRESTWrapper.h */,
+				61308810144FCAD000BF6278 /* EBRESTWrapper.m */,
+				61308812144FCBC900BF6278 /* EBRESTWrapperDelegate.h */,
 				613087E3144FBD4900BF6278 /* Supporting Files */,
 			);
 			path = iPlaystr;
@@ -162,7 +203,10 @@
 			files = (
 				613087E9144FBD4900BF6278 /* main.m in Sources */,
 				613087ED144FBD4900BF6278 /* EBAppDelegate.m in Sources */,
-				613087F3144FBD4900BF6278 /* EBViewController.m in Sources */,
+				613087F3144FBD4900BF6278 /* EBSelectionViewController.m in Sources */,
+				61308809144FC49400BF6278 /* EBLastFMManager.m in Sources */,
+				6130880C144FC74200BF6278 /* EBRdioManager.m in Sources */,
+				61308811144FCAD000BF6278 /* EBRESTWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +280,14 @@
 		613087F7144FBD4900BF6278 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = iPlaystr/iPlaystr.entitlements;
+				CODE_SIGN_RESOURCE_RULES_PATH = icloud;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Projects Library\"",
+					"\"$(SRCROOT)/../../Projects Library/rdio-ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPlaystr/iPlaystr-Prefix.pch";
 				INFOPLIST_FILE = "iPlaystr/iPlaystr-Info.plist";
@@ -247,6 +299,14 @@
 		613087F8144FBD4900BF6278 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = iPlaystr/iPlaystr.entitlements;
+				CODE_SIGN_RESOURCE_RULES_PATH = icloud;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Projects Library\"",
+					"\"$(SRCROOT)/../../Projects Library/rdio-ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPlaystr/iPlaystr-Prefix.pch";
 				INFOPLIST_FILE = "iPlaystr/iPlaystr-Info.plist";
@@ -274,6 +334,7 @@
 				613087F8144FBD4900BF6278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
